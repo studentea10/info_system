@@ -1,0 +1,67 @@
+/* Reset the default styles to ensure consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Configure the font and background colour for the full page */
+  body {
+    background-color: #787878;
+    font-family: Garamond, sans-serif;
+  }
+  
+  /* Add some padding to give the content of the page some extra room */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the header */
+  header {
+    font-size: 24px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Style the navigation menu (navbar) */
+  nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  /* Style navigation links  */
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content area */
+  main {
+    padding: 20px 0;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive design - adjust layout for smaller displays */
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
